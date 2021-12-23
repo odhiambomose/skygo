@@ -1,0 +1,13 @@
+.aboutus{
+    text-align: center;
+    background-color:beige;
+    margin-top: 16%;
+}
+.aboutus h2{
+    font-size: 2rem;
+}
+.aboutus p{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.3rem;
+}

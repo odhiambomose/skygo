@@ -1,0 +1,212 @@
+.account{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: teal;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.sky{
+    color:#F3B103;
+}
+.sky:hover{
+    color: white;
+    transform: all .5s ease;
+}
+.account button{
+    padding: .5em  1.6em;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.3rem;
+}
+.account button a{
+    text-decoration: none;
+    color:teal;
+}
+.account button a:hover{
+    color:red;
+    transition: all .5s ease;
+}
+.account-btn{
+    display: flex;
+    gap: 2em;
+}
+.btn-login {
+    padding: .8em 2em;
+    margin-left: 2em;
+    border-radius: 5px;
+    
+}
+.btn-register{
+    padding: .7em 2em;
+    border-radius: 5px;
+}
+.main-menu{
+    display: flex;
+    align-items: center;
+
+   
+    
+}
+.list-item ul a{
+    text-decoration: none;
+    color:white;
+}
+.list-item ul a:hover{
+    color:black;
+}
+.list-item ul li{
+    margin: 0  2em;
+    list-style-type: none;
+}
+.heading-sky{
+    color: white;
+}
+
+
+
+
+.buy{
+    position: relative;
+}
+
+.sub-menu{
+visibility: hidden;
+position: absolute;
+background: #fff;
+box-shadow: 3px 3px 5px darkgrey;
+width: 250px;
+top: 30px;
+left: -60px;
+}
+
+.buy:hover .sub-menu{
+    color: teal;
+    visibility: visible;
+}
+.sell{
+    position: relative;
+}
+.sell-products{
+    visibility: hidden;
+    position: absolute;
+background: #fff;
+box-shadow: 3px 3px 5px darkgrey;
+width: 250px;
+    top: 30px;
+    left: -60;
+}
+.sell:hover .sell-products{
+    visibility: visible;
+    color: teal;
+}
+
+
+.rent{
+    position: relative;
+}
+
+.rent-items{
+    visibility: hidden;
+    position: absolute;
+background: #fff;
+box-shadow: 3px 3px 5px darkgrey;
+width: 250px;
+    top: 30px;
+    left: -60
+
+}
+.rent:hover .rent-items{
+    visibility: visible;
+    color: teal;
+}
+
+.agents{
+    position: relative;
+}
+.agents-info{
+    visibility: hidden;
+    position: absolute;
+background: #fff;
+box-shadow: 3px 3px 5px darkgrey;
+width: 250px;
+    top: 30px;
+    left: -60
+
+}
+.agents:hover .agents-info{
+    visibility: visible;
+    color: teal;
+}
+
+
+
+.advice{
+    position: relative;
+}
+.advice-comments{
+    visibility: hidden;
+    position: absolute;
+background: #fff;
+box-shadow: 3px 3px 5px darkgrey;
+width: 250px;
+    top: 30px;
+    left: -60
+
+}
+.advice:hover .advice-comments{
+    visibility: visible;
+    color: teal;
+}
+.news{
+    position: relative;
+}
+.updates{
+    visibility: hidden;
+    position: absolute;
+background: #fff;
+box-shadow: 3px 3px 5px darkgrey;
+width: 250px;
+    top: 30px;
+    left: -70
+
+}
+.news:hover .updates{
+    visibility: visible;
+    color: teal;
+
+}
+
+.blog{
+    position: relative;
+}
+.blog-property{
+ visibility: hidden;
+ position: absolute;
+background: #fff;
+box-shadow: 3px 3px 5px darkgrey;
+width: 200px;
+    top: 30px;
+    left: -100px;
+
+}
+.blog:hover .blog-property{
+    visibility: visible;
+    color: teal;
+
+}
+
+
+@media (max-width:768px),(max-width:414px){
+    
+    .main-menu{
+        display: flex;
+        background-color: teal;
+        width: 100%;
+        display: none;
+    }
+    .account-btn{
+        gap: 1em;
+    }
+}

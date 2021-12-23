@@ -1,0 +1,126 @@
+.slide-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.slider{
+    height: 50vh;
+    width: 100%;
+     
+}
+
+.slider-inner{
+    height: 100%;
+}
+
+.slide1{
+background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url("../../Image/pexel4.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+height: 80vh;
+
+}
+.slide2{
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)) ,url("../../Image/pixels2.jpg");
+    background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+height: 80vh;
+
+}
+.slide3{
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("../../Image/pexels5.jpg");
+    background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+height: 80vh;
+    
+}
+.slide-container p{
+    font-size: 1.5rem;
+    color: white;
+}
+.btn-container{
+    display: flex;
+    margin: 1em 0;
+    gap: 2em;
+}
+.btn-container button{
+    padding: 1em 5em;
+    font-size: 1rem;
+
+}
+.choice{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+.choice button{
+    padding: 1em 5em;
+    font-size: 1rem;
+
+}
+.style{
+    display: flex;
+    align-items: center;
+}
+.style input{
+    
+width: 800px;
+padding: 1em  0;
+
+}
+.style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-container{
+    position: relative;
+}
+.slide-text{
+    position: absolute;
+    top: 50%;
+    
+    
+    
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:768px),(max-width:414px){
+    
+    .btn-container button{
+        padding: 1em 2em;
+        font-size: 1rem;
+    }
+    .style input{
+        width: 300px;
+        display: none;
+    }
+    .btn-container{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .slider{
+        display: none;
+    }
+    .btn-container{
+        display: none;
+    }
+    .choice{
+        display: none;
+    }
+
+}
+
+    
