@@ -1,0 +1,28 @@
+.flex-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    margin: 0 auto;
+}
+.flex-words{
+    text-align: center;
+}
+
+.book{
+    padding: 1em 3em;
+    background-color: teal;
+    color: white;
+    border: none;
+}
+.name{
+    font-size: 1.5rem;
+}
+.heading-prop{
+    font-size: 1rem;
+}
+.price-prop{
+    font-size: 1.5rem;
+    color: red;
+    ;
+}

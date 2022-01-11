@@ -1,0 +1,33 @@
+.content{
+    width: 45%;
+    font-weight: 300;
+    font-size: .9rem;
+    line-height: 2em;
+}
+.btn-content{
+    display: flex;
+    gap: 2em;
+}
+.explanation{
+    margin-left: 20%;
+    color: white;
+
+}
+.bg-explanation{
+    background-color: #2C3843;
+    padding: .4em 0;
+}
+.btn-content button{
+    padding:0em 2em;
+    background-color:#3C9E74 ;
+    border: none;
+    border-radius: 5px;
+    color: white;
+
+}
+.mention{
+    font-size: .9rem;
+}
+.paragraph{
+    font-size: .8em;
+}

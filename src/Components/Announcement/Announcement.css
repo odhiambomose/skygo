@@ -1,0 +1,30 @@
+.announcement{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    margin-left: 20%;
+    
+}
+.part-announcement{
+background-color:#3D4C59;
+}
+
+.learn{
+    padding: .6em 2em;
+    background-color: #1E252D;
+    color: white;
+    border: none;
+}
+.upgrade{
+    padding: .6em 2em;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    background-color:#3C9E74 ;
+}
+.generator{
+    color: white;
+}
+.guide{
+    color: white;
+}
